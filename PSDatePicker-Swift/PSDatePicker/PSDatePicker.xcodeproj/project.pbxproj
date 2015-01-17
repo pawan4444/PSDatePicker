@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8763AEC71A6AB90300660203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763AEC61A6AB90300660203 /* AppDelegate.swift */; };
+		8763AEC91A6AB90300660203 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763AEC81A6AB90300660203 /* ViewController.swift */; };
+		8763AECC1A6AB90300660203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8763AECA1A6AB90300660203 /* Main.storyboard */; };
+		8763AECE1A6AB90300660203 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8763AECD1A6AB90300660203 /* Images.xcassets */; };
+		8763AED11A6AB90300660203 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8763AECF1A6AB90300660203 /* LaunchScreen.xib */; };
+		8763AEDD1A6AB90300660203 /* PSDatePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763AEDC1A6AB90300660203 /* PSDatePickerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8763AED71A6AB90300660203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8763AEB91A6AB90300660203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8763AEC01A6AB90300660203;
+			remoteInfo = PSDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8763AEC11A6AB90300660203 /* PSDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8763AEC51A6AB90300660203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8763AEC61A6AB90300660203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8763AEC81A6AB90300660203 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8763AECB1A6AB90300660203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8763AECD1A6AB90300660203 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8763AED01A6AB90300660203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8763AED61A6AB90300660203 /* PSDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8763AEDB1A6AB90300660203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8763AEDC1A6AB90300660203 /* PSDatePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSDatePickerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8763AEBE1A6AB90300660203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8763AED31A6AB90300660203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8763AEB81A6AB90300660203 = {
+			isa = PBXGroup;
+			children = (
+				8763AEC31A6AB90300660203 /* PSDatePicker */,
+				8763AED91A6AB90300660203 /* PSDatePickerTests */,
+				8763AEC21A6AB90300660203 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8763AEC21A6AB90300660203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8763AEC11A6AB90300660203 /* PSDatePicker.app */,
+				8763AED61A6AB90300660203 /* PSDatePickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8763AEC31A6AB90300660203 /* PSDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				8763AEC61A6AB90300660203 /* AppDelegate.swift */,
+				8763AEC81A6AB90300660203 /* ViewController.swift */,
+				8763AECA1A6AB90300660203 /* Main.storyboard */,
+				8763AECD1A6AB90300660203 /* Images.xcassets */,
+				8763AECF1A6AB90300660203 /* LaunchScreen.xib */,
+				8763AEC41A6AB90300660203 /* Supporting Files */,
+			);
+			path = PSDatePicker;
+			sourceTree = "<group>";
+		};
+		8763AEC41A6AB90300660203 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8763AEC51A6AB90300660203 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8763AED91A6AB90300660203 /* PSDatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8763AEDC1A6AB90300660203 /* PSDatePickerTests.swift */,
+				8763AEDA1A6AB90300660203 /* Supporting Files */,
+			);
+			path = PSDatePickerTests;
+			sourceTree = "<group>";
+		};
+		8763AEDA1A6AB90300660203 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8763AEDB1A6AB90300660203 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8763AEC01A6AB90300660203 /* PSDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8763AEE01A6AB90300660203 /* Build configuration list for PBXNativeTarget "PSDatePicker" */;
+			buildPhases = (
+				8763AEBD1A6AB90300660203 /* Sources */,
+				8763AEBE1A6AB90300660203 /* Frameworks */,
+				8763AEBF1A6AB90300660203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSDatePicker;
+			productName = PSDatePicker;
+			productReference = 8763AEC11A6AB90300660203 /* PSDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8763AED51A6AB90300660203 /* PSDatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8763AEE31A6AB90300660203 /* Build configuration list for PBXNativeTarget "PSDatePickerTests" */;
+			buildPhases = (
+				8763AED21A6AB90300660203 /* Sources */,
+				8763AED31A6AB90300660203 /* Frameworks */,
+				8763AED41A6AB90300660203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8763AED81A6AB90300660203 /* PBXTargetDependency */,
+			);
+			name = PSDatePickerTests;
+			productName = PSDatePickerTests;
+			productReference = 8763AED61A6AB90300660203 /* PSDatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8763AEB91A6AB90300660203 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Pawan Kumar Singh";
+				TargetAttributes = {
+					8763AEC01A6AB90300660203 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8763AED51A6AB90300660203 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8763AEC01A6AB90300660203;
+					};
+				};
+			};
+			buildConfigurationList = 8763AEBC1A6AB90300660203 /* Build configuration list for PBXProject "PSDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8763AEB81A6AB90300660203;
+			productRefGroup = 8763AEC21A6AB90300660203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8763AEC01A6AB90300660203 /* PSDatePicker */,
+				8763AED51A6AB90300660203 /* PSDatePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8763AEBF1A6AB90300660203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8763AECC1A6AB90300660203 /* Main.storyboard in Resources */,
+				8763AED11A6AB90300660203 /* LaunchScreen.xib in Resources */,
+				8763AECE1A6AB90300660203 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8763AED41A6AB90300660203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8763AEBD1A6AB90300660203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8763AEC91A6AB90300660203 /* ViewController.swift in Sources */,
+				8763AEC71A6AB90300660203 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8763AED21A6AB90300660203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8763AEDD1A6AB90300660203 /* PSDatePickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8763AED81A6AB90300660203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8763AEC01A6AB90300660203 /* PSDatePicker */;
+			targetProxy = 8763AED71A6AB90300660203 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8763AECA1A6AB90300660203 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8763AECB1A6AB90300660203 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8763AECF1A6AB90300660203 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8763AED01A6AB90300660203 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8763AEDE1A6AB90300660203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8763AEDF1A6AB90300660203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8763AEE11A6AB90300660203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PSDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8763AEE21A6AB90300660203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PSDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8763AEE41A6AB90300660203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PSDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSDatePicker.app/PSDatePicker";
+			};
+			name = Debug;
+		};
+		8763AEE51A6AB90300660203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PSDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSDatePicker.app/PSDatePicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8763AEBC1A6AB90300660203 /* Build configuration list for PBXProject "PSDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8763AEDE1A6AB90300660203 /* Debug */,
+				8763AEDF1A6AB90300660203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8763AEE01A6AB90300660203 /* Build configuration list for PBXNativeTarget "PSDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8763AEE11A6AB90300660203 /* Debug */,
+				8763AEE21A6AB90300660203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8763AEE31A6AB90300660203 /* Build configuration list for PBXNativeTarget "PSDatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8763AEE41A6AB90300660203 /* Debug */,
+				8763AEE51A6AB90300660203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8763AEB91A6AB90300660203 /* Project object */;
+}
