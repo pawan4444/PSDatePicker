@@ -13,6 +13,7 @@
 		8763AECE1A6AB90300660203 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8763AECD1A6AB90300660203 /* Images.xcassets */; };
 		8763AED11A6AB90300660203 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8763AECF1A6AB90300660203 /* LaunchScreen.xib */; };
 		8763AEDD1A6AB90300660203 /* PSDatePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763AEDC1A6AB90300660203 /* PSDatePickerTests.swift */; };
+		8763AEE81A6ABACE00660203 /* PSDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763AEE71A6ABACE00660203 /* PSDatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8763AED61A6AB90300660203 /* PSDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8763AEDB1A6AB90300660203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8763AEDC1A6AB90300660203 /* PSDatePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSDatePickerTests.swift; sourceTree = "<group>"; };
+		8763AEE71A6ABACE00660203 /* PSDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSDatePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		8763AEC31A6AB90300660203 /* PSDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				8763AEE61A6ABA2000660203 /* PSDatePickerLib */,
 				8763AEC61A6AB90300660203 /* AppDelegate.swift */,
 				8763AEC81A6AB90300660203 /* ViewController.swift */,
 				8763AECA1A6AB90300660203 /* Main.storyboard */,
@@ -111,6 +114,14 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		8763AEE61A6ABA2000660203 /* PSDatePickerLib */ = {
+			isa = PBXGroup;
+			children = (
+				8763AEE71A6ABACE00660203 /* PSDatePicker.swift */,
+			);
+			path = PSDatePickerLib;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -214,6 +225,7 @@
 			files = (
 				8763AEC91A6AB90300660203 /* ViewController.swift in Sources */,
 				8763AEC71A6AB90300660203 /* AppDelegate.swift in Sources */,
+				8763AEE81A6ABACE00660203 /* PSDatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +419,7 @@
 				8763AEE21A6AB90300660203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8763AEE31A6AB90300660203 /* Build configuration list for PBXNativeTarget "PSDatePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				8763AEE51A6AB90300660203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
