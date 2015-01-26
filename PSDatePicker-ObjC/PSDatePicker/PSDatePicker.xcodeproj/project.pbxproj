@@ -14,6 +14,7 @@
 		8763AEA01A6AB8DF00660203 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8763AE9F1A6AB8DF00660203 /* Images.xcassets */; };
 		8763AEA31A6AB8DF00660203 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8763AEA11A6AB8DF00660203 /* LaunchScreen.xib */; };
 		8763AEAF1A6AB8DF00660203 /* PSDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8763AEAE1A6AB8DF00660203 /* PSDatePickerTests.m */; };
+		87EDA8F01A76737300E440E6 /* PSDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EDA8EF1A76737300E440E6 /* PSDatePicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8763AEA81A6AB8DF00660203 /* PSDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8763AEAD1A6AB8DF00660203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8763AEAE1A6AB8DF00660203 /* PSDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSDatePickerTests.m; sourceTree = "<group>"; };
+		87EDA8EE1A76737300E440E6 /* PSDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDatePicker.h; sourceTree = "<group>"; };
+		87EDA8EF1A76737300E440E6 /* PSDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDatePicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		8763AE911A6AB8DF00660203 /* PSDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				87EDA8ED1A76734C00E440E6 /* PSDatePickerLib */,
 				8763AE961A6AB8DF00660203 /* AppDelegate.h */,
 				8763AE971A6AB8DF00660203 /* AppDelegate.m */,
 				8763AE991A6AB8DF00660203 /* ViewController.h */,
@@ -118,6 +122,15 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		87EDA8ED1A76734C00E440E6 /* PSDatePickerLib */ = {
+			isa = PBXGroup;
+			children = (
+				87EDA8EE1A76737300E440E6 /* PSDatePicker.h */,
+				87EDA8EF1A76737300E440E6 /* PSDatePicker.m */,
+			);
+			path = PSDatePickerLib;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87EDA8F01A76737300E440E6 /* PSDatePicker.m in Sources */,
 				8763AE9B1A6AB8DF00660203 /* ViewController.m in Sources */,
 				8763AE981A6AB8DF00660203 /* AppDelegate.m in Sources */,
 				8763AE951A6AB8DF00660203 /* main.m in Sources */,
@@ -414,6 +428,7 @@
 				8763AEB41A6AB8DF00660203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8763AEB51A6AB8DF00660203 /* Build configuration list for PBXNativeTarget "PSDatePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +437,7 @@
 				8763AEB71A6AB8DF00660203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

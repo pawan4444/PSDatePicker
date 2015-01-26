@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9A2C393F-4A6A-4D7C-8437-A9C3D4F88799</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PSDatePicker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>38505003770C747ED6176A9C09A01E9C8D179313</key>
+		<string>https://github.com/pawan4444/PSDatePicker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PSDatePicker-ObjC/PSDatePicker/PSDatePicker.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>38505003770C747ED6176A9C09A01E9C8D179313</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pawan4444/PSDatePicker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>38505003770C747ED6176A9C09A01E9C8D179313</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>38505003770C747ED6176A9C09A01E9C8D179313</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PSDatePicker</string>
+		</dict>
+	</array>
+</dict>
+</plist>
